@@ -9823,3 +9823,1068 @@ Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.2
   
 ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
   
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:44:04 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 253)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 7129531da669be0b7ff4
+Version: webpack 4.46.0
+Time: 1329ms
+Built at: 05/28/2021 1:44:07 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-7a017b0cf9c8c84159b3.js   80.9 KiB   application  [emitted] [immutable]  application
+ js/application-7a017b0cf9c8c84159b3.js.map   88.9 KiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-7a017b0cf9c8c84159b3.js js/application-7a017b0cf9c8c84159b3.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 177 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 310 bytes {application} [built] [failed] [1 error]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Can't find stylesheet to import.
+  ╷
+7 │ @import "@fortawesome/fontawesome-free";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+  app/javascript/stylesheets/application.scss 7:9  root stylesheet
+ @ ./app/javascript/stylesheets/application.scss 2:26-228
+ @ ./app/javascript/packs/application.js
+
+  Rendered partials/_head.html.erb (Duration: 3.0ms | Allocations: 795)
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 2965.3ms | Allocations: 11313)
+Completed 200 OK in 2971ms (Views: 2967.7ms | ActiveRecord: 0.0ms | Allocations: 13718)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:44:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:44:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.2ms | Allocations: 572)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 4349)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4661)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:44:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.1ms | Allocations: 552)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4188)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4422)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:44:30 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/awesomeapp/public/packs
+[Webpacker] Hash: dcdc899862c19d007a56
+Version: webpack 4.46.0
+Time: 11518ms
+Built at: 05/28/2021 1:44:42 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-eee635e61d57a83b5386.js   5.14 MiB   application  [emitted] [immutable]  application
+ js/application-eee635e61d57a83b5386.js.map   5.45 MiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-eee635e61d57a83b5386.js js/application-eee635e61d57a83b5386.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 177 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 5.05 MiB {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered partials/_head.html.erb (Duration: 1.4ms | Allocations: 552)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 12956.2ms | Allocations: 5420)
+Completed 200 OK in 12957ms (Views: 12956.8ms | ActiveRecord: 0.0ms | Allocations: 5654)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:44:45 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:45:20 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:47:12 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/awesomeapp/public/packs
+[Webpacker] Hash: c63585541b6cb7a43056
+Version: webpack 4.46.0
+Time: 12642ms
+Built at: 05/28/2021 1:47:26 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-52d0d6bfce8289fb3c4f.js   5.36 MiB   application  [emitted] [immutable]  application
+ js/application-52d0d6bfce8289fb3c4f.js.map    5.7 MiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-52d0d6bfce8289fb3c4f.js js/application-52d0d6bfce8289fb3c4f.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 177 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 5.28 MiB {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered partials/_head.html.erb (Duration: 1.1ms | Allocations: 554)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 14144.4ms | Allocations: 5362)
+Completed 200 OK in 14146ms (Views: 14145.1ms | ActiveRecord: 0.0ms | Allocations: 5592)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:47:29 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:47:39 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.9ms | Allocations: 552)
+  Rendered partials/_footer.html.erb (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 4186)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 4415)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:48:04 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:48:19 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 3.3ms | Allocations: 767)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 5113)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 6068)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:49:15 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.7ms | Allocations: 762)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 5096)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 6040)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:49:18 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:49:53 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:50:51 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/awesomeapp/public/packs
+[Webpacker] DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(20em, 16)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+12 │ $fa-fw-width:          (20em / 16);
+   │                         ^^^^^^^^^
+   ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_variables.scss 12:25  @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 5:9   @import
+    app/javascript/stylesheets/application.scss 8:9                        root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(4em, 3)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   font-size: (4em / 3);
+  │               ^^^^^^^
+  ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_larger.scss 6:15     @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 8:9  @import
+    app/javascript/stylesheets/application.scss 8:9                       root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(3em, 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+7 │   line-height: (3em / 4);
+  │                 ^^^^^^^
+  ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_larger.scss 7:17     @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 8:9  @import
+    app/javascript/stylesheets/application.scss 8:9                       root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($fa-li-width * 5, 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   margin-left: $fa-li-width * 5/4;
+  │                ^^^^^^^^^^^^^^^^^^
+  ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_list.scss 6:16        @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 10:9  @import
+    app/javascript/stylesheets/application.scss 8:9                        root stylesheet
+
+
+[Webpacker] Hash: 895c5cdb75d6d7d575d6
+Version: webpack 4.46.0
+Time: 13721ms
+Built at: 05/28/2021 1:51:06 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-6cecae394637ec811ad6.js   5.71 MiB   application  [emitted] [immutable]  application
+ js/application-6cecae394637ec811ad6.js.map   6.08 MiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-6cecae394637ec811ad6.js js/application-6cecae394637ec811ad6.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 177 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 5.63 MiB {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered partials/_head.html.erb (Duration: 1.1ms | Allocations: 558)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 15197.5ms | Allocations: 5384)
+Completed 200 OK in 15199ms (Views: 15198.2ms | Allocations: 5615)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:51:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.8ms | Allocations: 552)
+  Rendered partials/_footer.html.erb (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4186)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 4415)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:51:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 23)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: b3787193fc456beb533b
+Version: webpack 4.46.0
+Time: 1203ms
+Built at: 05/28/2021 1:51:50 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-24a03c3f66ef18ff459a.js   80.9 KiB   application  [emitted] [immutable]  application
+ js/application-24a03c3f66ef18ff459a.js.map   88.9 KiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-24a03c3f66ef18ff459a.js js/application-24a03c3f66ef18ff459a.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 177 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 322 bytes {application} [built] [failed] [1 error]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Can't find stylesheet to import.
+  ╷
+7 │ @import "./fontawesome/scss/fontawesome.scss";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+  app/javascript/stylesheets/application.scss 7:9  root stylesheet
+ @ ./app/javascript/stylesheets/application.scss 2:26-228
+ @ ./app/javascript/packs/application.js
+
+  Rendered partials/_head.html.erb (Duration: 1.1ms | Allocations: 552)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 2565.8ms | Allocations: 5246)
+Completed 200 OK in 2567ms (Views: 2566.5ms | Allocations: 5476)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:51:52 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:52:27 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:52:53 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: f894f711cf7cf0c4cecf
+Version: webpack 4.46.0
+Time: 14225ms
+Built at: 05/28/2021 1:53:08 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-6001a81b1d399e9df799.js   5.64 MiB   application  [emitted] [immutable]  application
+ js/application-6001a81b1d399e9df799.js.map      6 MiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-6001a81b1d399e9df799.js js/application-6001a81b1d399e9df799.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 177 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 5.56 MiB {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 6 hidden modules
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-brands-400.eot' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 9:36-76
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-brands-400.svg' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 13:36-76
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-brands-400.ttf' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 12:36-76
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-brands-400.woff' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 11:36-77
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-brands-400.woff2' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 10:36-78
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-solid-900.eot' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 4:36-75
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-solid-900.svg' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 8:36-75
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-solid-900.ttf' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 7:36-75
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-solid-900.woff' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 6:36-76
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss)
+Module not found: Error: Can't resolve '../webfonts/fa-solid-900.woff2' in '/home/awesomeapp/app/javascript/stylesheets'
+ @ ./app/javascript/stylesheets/application.scss (./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss) 5:36-77
+ @ ./app/javascript/stylesheets/application.scss
+ @ ./app/javascript/packs/application.js
+
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(20em, 16)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+12 │ $fa-fw-width:          (20em / 16);
+   │                         ^^^^^^^^^
+   ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_variables.scss 12:25  @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 5:9   @import
+    app/javascript/stylesheets/application.scss 8:9                        root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(4em, 3)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   font-size: (4em / 3);
+  │               ^^^^^^^
+  ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_larger.scss 6:15     @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 8:9  @import
+    app/javascript/stylesheets/application.scss 8:9                       root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(3em, 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+7 │   line-height: (3em / 4);
+  │                 ^^^^^^^
+  ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_larger.scss 7:17     @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 8:9  @import
+    app/javascript/stylesheets/application.scss 8:9                       root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($fa-li-width * 5, 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   margin-left: $fa-li-width * 5/4;
+  │                ^^^^^^^^^^^^^^^^^^
+  ╵
+    node_modules/@fortawesome/fontawesome-free/scss/_list.scss 6:16        @import
+    node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss 10:9  @import
+    app/javascript/stylesheets/application.scss 8:9                        root stylesheet
+
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+  Rendered partials/_head.html.erb (Duration: 2.1ms | Allocations: 554)
+  Rendered partials/_footer.html.erb (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 15703.3ms | Allocations: 5296)
+Completed 200 OK in 15705ms (Views: 15704.0ms | Allocations: 5526)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:54:56 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/awesomeapp/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 4941253880ca324c7d6d
+Version: webpack 4.46.0
+Time: 12798ms
+Built at: 05/28/2021 1:55:11 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-414e7d33701a0da11622.js   6.36 MiB   application  [emitted] [immutable]  application
+ js/application-414e7d33701a0da11622.js.map    6.7 MiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-414e7d33701a0da11622.js js/application-414e7d33701a0da11622.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 400 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 5.05 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 12 hidden modules
+
+  Rendered partials/_head.html.erb (Duration: 1.5ms | Allocations: 552)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 14247.8ms | Allocations: 5367)
+Completed 200 OK in 14249ms (Views: 14248.4ms | Allocations: 5596)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:55:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:55:49 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:58:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.6ms | Allocations: 1186)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5209)
+Completed 500 Internal Server Error in 20ms (Allocations: 6130)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="bg-blue-dark text-white h-16">
+    <div class="container mx-auto px-5 md:px-24 pt-4 text-right text-white ">
+        <div class="space-x-3">
+            <a href="">Github logo</a>
+            <a href="">Github logo</a>
+            <a href="">Github logo</a>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="container mx-auto px-5 md:px-24 my-4">
+
+        <div class="flex flex-row flex-wrap justify-between items-center relative">
+            <div class="">
+                <a class="block" title="AwesomeApp" href="<%= root_path %>">
+                    <%= image_tag('logo.png', alt: "Logo AwesomeApp", class: 'w-full md:w-60' ) %>
+                </a>
+            </div>
+          
+            <nav class="flex flex-col md:flex-row md:space-x-6 mt-2 rounded-lg text-gray-500 font-semibold w-full md:w-auto bg-gray-100 md:bg-transparent p-6 md:p-0">
+                    <% link_to root_path, class: "no-underline hover:underline", do %>
+                    <i class="fas fa-home"></i> Home
+                    <% end %>
+                    <%= link_to "Link Two", root_path, class: "no-underline hover:underline" %>
+                    <%= link_to "Link Tree", root_path, class: "no-underline hover:underline" %>
+                    <%= link_to "Link Fowor", root_path, class: "no-underline hover:underline" %>
+            </nav>
+            
+
+        </div>
+
+    </div>
+</header>
+):
+1:    <div class="bg-blue-dark text-white h-16">
+2:        <div class="container mx-auto px-5 md:px-24 pt-4 text-right text-white ">
+3:            <div class="space-x-3">
+4:                <a href="">Github logo</a>
+5:                <a href="">Github logo</a>
+6:                <a href="">Github logo</a>
+7:            </div>
+8:        </div>
+9:    </div>
+10:    <header>
+11:        <div class="container mx-auto px-5 md:px-24 my-4">
+12:    
+13:            <div class="flex flex-row flex-wrap justify-between items-center relative">
+14:                <div class="">
+15:                    <a class="block" title="AwesomeApp" href="<%= root_path %>">
+16:                        <%= image_tag('logo.png', alt: "Logo AwesomeApp", class: 'w-full md:w-60' ) %>
+17:                    </a>
+18:                </div>
+19:              
+20:                <nav class="flex flex-col md:flex-row md:space-x-6 mt-2 rounded-lg text-gray-500 font-semibold w-full md:w-auto bg-gray-100 md:bg-transparent p-6 md:p-0">
+21:                        <% link_to root_path, class: "no-underline hover:underline", do %>
+22:                        <i class="fas fa-home"></i> Home
+23:                        <% end %>
+24:                        <%= link_to "Link Two", root_path, class: "no-underline hover:underline" %>
+25:                        <%= link_to "Link Tree", root_path, class: "no-underline hover:underline" %>
+26:                        <%= link_to "Link Fowor", root_path, class: "no-underline hover:underline" %>
+27:                </nav>
+28:                
+29:    
+30:            </div>
+31:    
+32:        </div>
+33:    </header>
+  
+app/views/partials/_head.html.erb:21: syntax error, unexpected `do' for block
+app/views/partials/_head.html.erb:35: syntax error, unexpected `end', expecting end-of-input
+app/views/partials/_head.html.erb:21: syntax error, unexpected `do' for block
+app/views/partials/_head.html.erb:35: syntax error, unexpected `end', expecting end-of-input
+app/views/partials/_head.html.erb:21: syntax error, unexpected `do' for block
+app/views/partials/_head.html.erb:35: syntax error, unexpected `end', expecting end-of-input
+app/views/partials/_head.html.erb:21: syntax error, unexpected `do' for block
+app/views/partials/_head.html.erb:35: syntax error, unexpected `end', expecting end-of-input
+app/views/partials/_head.html.erb:21: syntax error, unexpected `do' for block
+app/views/partials/_head.html.erb:35: syntax error, unexpected `end', expecting end-of-input
+app/views/partials/_head.html.erb:21: syntax error, unexpected `do' for block
+app/views/partials/_head.html.erb:35: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:16
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:58:33 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:58:44 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 3.1ms | Allocations: 792)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5137)
+Completed 200 OK in 20ms (Views: 18.7ms | Allocations: 6080)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:58:46 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:58:48 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 2.1ms | Allocations: 561)
+  Rendered partials/_footer.html.erb (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4478)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 4859)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:59:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.6ms | Allocations: 788)
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 5123)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 6065)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:59:12 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 13:59:15 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.1ms | Allocations: 559)
+  Rendered partials/_footer.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4196)
+Completed 200 OK in 8ms (Views: 7.8ms | Allocations: 4426)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:59:18 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 13:59:53 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:01:12 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 3.4ms | Allocations: 847)
+  Rendered partials/_footer.html.erb (Duration: 1.4ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 5192)
+Completed 200 OK in 25ms (Views: 24.2ms | Allocations: 6135)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:01:15 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:01:20 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.9ms | Allocations: 580)
+  Rendered partials/_footer.html.erb (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 4218)
+Completed 200 OK in 40ms (Views: 39.3ms | Allocations: 4449)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:01:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:01:42 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 3.0ms | Allocations: 851)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 5186)
+Completed 200 OK in 21ms (Views: 20.1ms | Allocations: 6128)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:01:44 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:02:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 2.8ms | Allocations: 848)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 5184)
+Completed 200 OK in 19ms (Views: 18.0ms | Allocations: 6122)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:02:16 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:02:52 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:03:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 3.8ms | Allocations: 905)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 5250)
+Completed 200 OK in 21ms (Views: 19.0ms | Allocations: 6193)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:03:11 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:03:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:04:04 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 138)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.9ms | Allocations: 905)
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5255)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 6199)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:04:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:04:25 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 2.5ms | Allocations: 789)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 5134)
+Completed 200 OK in 19ms (Views: 17.5ms | Allocations: 6077)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:04:28 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:05:03 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:06:36 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 3.3ms | Allocations: 846)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 5192)
+Completed 200 OK in 20ms (Views: 18.2ms | Allocations: 6137)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:06:39 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:07:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:07:24 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 3.3ms | Allocations: 850)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 5195)
+Completed 200 OK in 20ms (Views: 18.9ms | Allocations: 6140)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:07:26 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 2.0ms | Allocations: 555)
+  Rendered partials/_footer.html.erb (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4195)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 4426)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:07:26 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:07:28 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:07:56 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_head.html.erb (Duration: 1.9ms | Allocations: 851)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5196)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 6140)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:07:58 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:08:34 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for 172.21.0.1 at 2021-05-28 14:14:53 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/awesomeapp/public/packs
+[Webpacker] Hash: 4941253880ca324c7d6d
+Version: webpack 4.46.0
+Time: 11950ms
+Built at: 05/28/2021 2:15:07 PM
+                                      Asset       Size        Chunks                         Chunk Names
+     js/application-414e7d33701a0da11622.js   6.36 MiB   application  [emitted] [immutable]  application
+ js/application-414e7d33701a0da11622.js.map    6.7 MiB   application  [emitted] [dev]        application
+    js/hello_svelte-ca56f34d85abfaf928b8.js   89.4 KiB  hello_svelte  [emitted] [immutable]  hello_svelte
+js/hello_svelte-ca56f34d85abfaf928b8.js.map   80.8 KiB  hello_svelte  [emitted] [dev]        hello_svelte
+                              manifest.json  710 bytes                [emitted]              
+Entrypoint application = js/application-414e7d33701a0da11622.js js/application-414e7d33701a0da11622.js.map
+Entrypoint hello_svelte = js/hello_svelte-ca56f34d85abfaf928b8.js js/hello_svelte-ca56f34d85abfaf928b8.js.map
+[./app/javascript/app.svelte] 1.29 KiB {hello_svelte} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 400 bytes {application} [built]
+[./app/javascript/packs/hello_svelte.js] 559 bytes {hello_svelte} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 5.05 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 12 hidden modules
+
+  Rendered partials/_head.html.erb (Duration: 3.9ms | Allocations: 851)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 13434.3ms | Allocations: 6435)
+Completed 200 OK in 13438ms (Views: 13436.7ms | Allocations: 7380)
+
+
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:15:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/service-worker.js" for 172.21.0.1 at 2021-05-28 14:15:45 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  

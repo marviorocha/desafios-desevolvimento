@@ -1,10 +1,11 @@
 <div class="bg-blue-dark text-white h-16">
     <div class="container mx-auto px-5 md:px-24 pt-4 text-right text-white ">
-        <div class="space-x-3">
-            <a href="">Github logo</a>
-            <a href="">Github logo</a>
-            <a href="">Github logo</a>
-        </div>
+        <nav class="flex flex-col space-x-3">
+           
+           <%= link_to "https://github.com/marviorocha/desafios-desevolvimento/", target: "_blank" do %>
+           <i class="fab fa-github"></i> Desafio de Programação
+             <% end %>
+        </nav>
     </div>
 </div>
 <header>
@@ -18,10 +19,16 @@
             </div>
           
             <nav class="flex flex-col md:flex-row md:space-x-6 mt-2 rounded-lg text-gray-500 font-semibold w-full md:w-auto bg-gray-100 md:bg-transparent p-6 md:p-0">
-                    <%= link_to "Link One", root_path, class: "no-underline hover:underline" %>
-                    <%= link_to "Link Two", root_path, class: "no-underline hover:underline" %>
-                    <%= link_to "Link Tree", root_path, class: "no-underline hover:underline" %>
-                    <%= link_to "Link Fowor", root_path, class: "no-underline hover:underline" %>
+                    <%= link_to root_path do %>
+                    <i class="fas fa-home"></i> Home
+                    <% end %>
+                    <%= link_to root_path do %>
+                    <i class="fas fa-folder-open"></i> Projetos
+                    <% end %>
+                    <%= link_to root_path do %>
+                    <i class="fas fa-calendar-alt"></i> Atividades
+                    <% end %>
+     
             </nav>
             
 

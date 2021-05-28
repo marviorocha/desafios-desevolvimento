@@ -15,6 +15,7 @@
 # Ignore all logfiles and tempfiles.
 /awesomeapp/log/*
 /awesomeapp/tmp/*
+/awesomeapp/tmp/
 /awesomeapp/log/.keep
 /awesomeapp/tmp/.keep
 /awesomeapp/.ash_history
@@ -69,3 +70,4 @@
 /awesomeapp/storage/*
 !/awesomeapp/storage/.keep
 /awesomeapp/public/uploads
+/awesomeapp/README.md
