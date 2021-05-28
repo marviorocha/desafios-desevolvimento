@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Awesomeapp</title>
+    <title>Awesome App | <%= content_for(:title) ? content_for(:title) : "" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_pack_tag 'application' %>
+  
+
   </head>
 
   <body>
+    <%= render "partials/head" %>
+
+<div class="container text-lg mx-auto px-5 md:px-24 block pt-4 ">
     <%= yield %>
+</div>
+
+    <%= render "partials/footer" %>
   </body>
 </html>

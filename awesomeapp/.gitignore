@@ -5,13 +5,12 @@ capybara-*.html
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /db/*.sqlite3-[0-9]*
-/awesomeapp/public/system
+/public/system
 /coverage/
 /spec/tmp
 *.orig
 rerun.txt
 pickle-email-*.html
-awesomeapp/.ash_history
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
