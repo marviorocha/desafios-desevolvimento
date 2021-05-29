@@ -34,3 +34,11 @@ end
 
  
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "faker", "~> 2.18"
+
+gem "rspec-rails", "~> 5.0", :group => :test
+
+gem "factory_bot_rails", "~> 6.2", :group => :test
+
+gem "capybara", "~> 3.35", :group => :test
