@@ -1,6 +1,6 @@
 # Introdução
 
-Olá, meu nome é Marvio Rocha, gostaria de compartilhar meus conhecimentos através desse desafio. Primeiramente quero agradecer pela oportunidade de está realizando este desafio com vocês. Sem dúvida desafios sempre nos motivam e ajuda a entender a nossa jornada profissional. Espero que vocês gostem desse  READ.md 
+Olá, meu nome é Marvio Rocha, gostaria de compartilhar meus conhecimentos através desse desafio. Primeiramente quero agradecer pela oportunidade de está realizando este desafio com vocês. Sem dúvida desafios sempre nos motivam e ajuda a entender a nossa jornada profissional. Espero que vocês gostem desse  README.md 
 
 ## O Projeto
 
@@ -29,14 +29,14 @@ cd desafios-desevolvimento/
 make server
 ```
 
-### Atalhos e comando make para axiliar
+**Atalhos e comando make para auxiliar**
 
 - make server 
 - make up
 - make down
 - make bash
 
-Para mais comando veja no arquivo Makefile
+Para mais comandos, por favor veja o arquivo [Makefile](./Makefile)
 
 
 ### Backend
