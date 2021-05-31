@@ -4,20 +4,21 @@ RSpec.feature "Home", type: :feature do
     
  scenario 'Visitando a Página Inicial' do
   visit('/') 
-  expect(find('h1')).to have_content('Bem-vindo Awesome App') 
+  expect(find('h1')).to have_content('Awesome App') 
  end
 
- scenario 'Checando link para atividades' do
+ scenario 'Verificando Titulos' do
+  visit(root_path)
+  expect(page).to have_title('Awesome App | Bem-vindo!')
+end
+
+ scenario 'Checando links menu' do
    visit('/') 
-   click_link(activities_path)
-   expect(page).to have_content ('Atividades')
+   expect(page).to have_link(nil, href: root_path)
+   expect(page).to have_link(nil, href: projects_path)
+   expect(page).to have_link(nil, href: activities_path)
  end
 
-#  scenario 'Checando link para projetos' do
-#    visit(root_path) 
-#    click_link(projects_path)
-#   expect(page).to have_content('Projetos')  
-# end
-
+ 
 
 end
