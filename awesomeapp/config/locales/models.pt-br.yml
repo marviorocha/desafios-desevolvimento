@@ -1,0 +1,11 @@
+---
+pt-BR:
+  activerecord:
+    models:
+      project: Projeto
+    attributes:
+      project:
+        name: Nome
+        start_date: Data Inicial
+        end_date: Data Final
+ 

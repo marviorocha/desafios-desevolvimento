@@ -1,0 +1,73 @@
+.vscode
+
+/awesomeapp/*.rbc
+/awesomeapp/capybara-*.html
+/awesomeapp/.rspec
+/awesomeapp/db/*.sqlite3
+/awesomeapp/db/*.sqlite3-journal
+/awesomeapp/db/*.sqlite3-[0-9]*
+/awesomeapp/public/system
+/awesomeapp/coverage/
+/awesomeapp/spec/tmp
+/awesomeapp*.orig
+/awesomeapp/rerun.txt
+/awesomeapp/pickle-email-*.html
+# Ignore all logfiles and tempfiles.
+/awesomeapp/log/*
+/awesomeapp/tmp/*
+/awesomeapp/tmp/
+/awesomeapp/log/.keep
+/awesomeapp/tmp/.keep
+/awesomeapp/.ash_history
+# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
+/awesomeapp/config/initializers/secret_token.rb
+/awesomeapp/config/master.key
+
+# Only include if you have production secrets in this file, which is no longer a Rails default
+# config/secrets.yml
+
+# dotenv, dotenv-rails
+# TODO Comment out these rules if environment variables can be committed
+/Docker/.env
+
+/awesomeapp/.env
+/awesomeapp/.env.*
+
+## Environment normalization:
+/awesomeapp/.bundle
+/awesomeapp/vendor/bundle
+
+# these should all be checked in to normalize the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+ 
+# if using bower-rails ignore default bower_components path bower.json files
+/awesomeapp/vendor/assets/bower_components
+/awesomeapp/*.bowerrc
+/awesomeapp/bower.json
+
+# Ignore pow environment settings
+/awesomeapp/.powenv
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+/awesomeapp/node_modules/
+
+# Ignore precompiled javascript packs
+/awesomeapp/public/packs
+/awesomeapp/public/packs-test
+/awesomeapp/public/assets
+
+# Ignore yarn files
+/awesomeapp/yarn-error.log
+/awesomeapp/yarn-debug.log*
+/awesomeapp/.yarn-integrity
+/awesomeapp/yarn.lock
+# Ignore uploaded files in development
+/awesomeapp/storage/*
+!/awesomeapp/storage/.keep
+/awesomeapp/public/uploads
+/awesomeapp/README.md

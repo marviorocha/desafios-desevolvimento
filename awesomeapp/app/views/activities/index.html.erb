@@ -1,0 +1,67 @@
+<%= content_for(:title, "Atividades") %>
+  <div class="flex flex-row items-center flex-wrap justify-between">
+   <h1 class="font-normal my-5 text-blue-dark text-4xl"> Atividades  </h1>
+   <a class="btn-blue" href="<%= new_activity_path %>"><i class="fas fa-folder-open"></i> Nova Atividade</a>
+ </div>
+
+<hr class="py-2">
+
+
+ <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5">
+   <thead class="text-white bg-gray-500">
+     <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+       <th class="p-3 text-left">ID Atividade</th>
+       <th class="p-3 text-left">ID Projeto</th>
+       <th class="p-3 text-left">Nome Atividade	</th>
+       <th class="p-3 text-left">Data Inicio</th>
+       <th class="p-3 text-left">Data Fim</th>
+       <th class="p-3 text-left">Finalizada?</th>
+       <th class="p-3 text-left" width="110px">Ação</th>
+     </tr>
+     <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+        <th class="p-3 text-left">ID Atividade</th>
+       <th class="p-3 text-left">ID Projeto</th>
+       <th class="p-3 text-left">Nome Atividade	</th>
+       <th class="p-3 text-left">Data Inicio</th>
+       <th class="p-3 text-left">Data Fim</th>
+       <th class="p-3 text-left">Finalizada?</th>
+       <th class="p-3 text-left" width="110px">Ação</th>
+     </tr>
+     <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+       <th class="p-3 text-left">ID Atividade</th>
+       <th class="p-3 text-left">ID Projeto</th>
+       <th class="p-3 text-left">Nome Atividade	</th>
+       <th class="p-3 text-left">Data Inicio</th>
+       <th class="p-3 text-left">Data Fim</th>
+       <th class="p-3 text-left">Finalizada?</th>
+       <th class="p-3 text-left" width="110px">Ação</th>
+     </tr>
+     <tr class="bg-teal-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+       <th class="p-3 text-left">ID Atividade</th>
+       <th class="p-3 text-left">ID Projeto</th>
+       <th class="p-3 text-left">Nome Atividade	</th>
+       <th class="p-3 text-left">Data Inicio</th>
+       <th class="p-3 text-left">Data Fim</th>
+       <th class="p-3 text-left">Finalizada?</th>
+       <th class="p-3 text-left" width="110px">Ação</th>
+     </tr>
+   </thead>
+   <tbody class="flex-1 sm:flex-none">
+    
+     <% @activity.each do |activity| %>
+     <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
+       <td class="border-grey-light border hover:bg-gray-100 p-3"><%= activity.id %></td>
+       <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= activity.project.id %></td>
+       <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= activity.name_activity %></td>
+       <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= activity.start_date.strftime('%d/%m/%Y') %></td>
+       <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= activity.end_date.strftime('%d/%m/%Y') %></td>
+       <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= activity.finish? ? "Sim" : "Não"   %></td>
+       <td
+         class="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">
+         <%= link_to activity_path(activity), method: :delete, data: { confirm: 'Você realmente deseja excluír?' } do %> 
+         <i class='fas fa-trash'></i> Excluír <% end %></td>
+     </tr>
+    <% end %>
+     
+   </tbody>
+ </table>
