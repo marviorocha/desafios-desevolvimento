@@ -4,7 +4,7 @@ Olá, meu nome é Marvio Rocha, gostaria de compartilhar meus conhecimentos atra
 
 # O Projeto
 
-O Projeto Awesome App é um projecto para avaliação código. 
+O Projeto Awesome App é voltado para avaliação códigos e teste do desenvolvedor. Aqui você pode  
  
 ### Backend
 - Ruby versão: 3.0.1
@@ -15,4 +15,5 @@ O Projeto Awesome App é um projecto para avaliação código.
 ### Frontend
 - TailwindCSS
 - HTML5
-
+## Test
+- Capybara e rspec
