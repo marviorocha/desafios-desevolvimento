@@ -1,13 +1,13 @@
 {
-  "application.js": "/packs/js/application-3709f8942857fd7edd63.js",
-  "application.js.map": "/packs/js/application-3709f8942857fd7edd63.js.map",
+  "application.js": "/packs/js/application-9533b2e34f72165b9c4b.js",
+  "application.js.map": "/packs/js/application-9533b2e34f72165b9c4b.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-3709f8942857fd7edd63.js"
+        "/packs/js/application-9533b2e34f72165b9c4b.js"
       ],
       "js.map": [
-        "/packs/js/application-3709f8942857fd7edd63.js.map"
+        "/packs/js/application-9533b2e34f72165b9c4b.js.map"
       ]
     },
     "hello_svelte": {
