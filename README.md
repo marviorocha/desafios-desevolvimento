@@ -1,6 +1,6 @@
 # Introdução
 
-Olá, meu nome é Marvio Rocha, gostaria de compartilhar meus conhecimentos através desse desafio. Primeiramente quero agradecer pela oportunidade de está realizando este desafio com vocês. Sem dúvida desafios sempre nos motivam e ajuda a entender a nossa jornada profissional. Espero que vocês gostem desse  README.md 
+Olá, meu nome é Marvio Rocha, gostaria de compartilhar meus conhecimentos através desse desafio para o Grupo Euax. Primeiramente quero agradecer pela oportunidade de está realizando este desafio com vocês. Sem dúvida desafios sempre nos motivam e ajuda a entender a nossa jornada profissional. Espero que vocês gostem.
 
 ## O Projeto
 

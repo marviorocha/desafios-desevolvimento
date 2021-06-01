@@ -51,19 +51,22 @@
    <tbody class="flex-1 sm:flex-none">
    
  
-
+ 
      <% @project.each do |project| %>
     
-    <% project_finished = Activity.finished(project.id).size.to_f * 100 / Activity.no_finished(project.id).size %>
-    <% deley_compared = Activity.delay_date(project.end_date) ? "Atrasado" : "Em Progresso..." %>
-    
+    <% project_finished = Activity.finished(project.id).size.to_f * 100 / Activity.no_finished(project.id).size.to_f %>
+    <% deley_compared   = Activity.delay_date(project.id, project.end_date).exists?  %>
+  
+   
+
+  
      <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0">
        <td class="border-grey-light border hover:bg-gray-100 p-3"><%= project.id %></td>
        <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= project.name %></td>
        <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= project.start_date.strftime("%d/%m/%Y") %></td>
        <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= project.end_date.strftime("%d/%m/%Y") %></td>
        <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= number_to_percentage(project_finished, precision: 0)   %></td>
-       <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%= deley_compared %></td>
+       <td class="border-grey-light border hover:bg-gray-100 p-3 truncate"><%=  deley_compared ? "Sim" : "Não"  %></td>
        <td
          class="border-grey-light border hover:bg-gray-100 p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">
          <%= link_to project_path(project), method: :delete, data: { confirm: 'Você realmente deseja excluír?' } do %> 
